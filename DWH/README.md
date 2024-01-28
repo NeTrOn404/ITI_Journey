@@ -52,10 +52,6 @@ Analysis Phase
 The analysis phase utilizes SQL Server Analysis Services (SSAS) to construct tabular data models, specializing in efficient data retrieval and relational views.
 Reporting Phase
 
-    Pivot Table Reporting: Utilizes Excel's pivot tables for basic ad-hoc analysis and custom reports generation.
-
-    Power BI Dashboard Reporting: Employs Power BI for interactive reports, dashboards, and data visualizations, allowing for more in-depth analysis and dynamic insights.
-
 This addition highlights the enhanced functionality brought by the accumulated fact table, enabling more robust tracking and analysis of sales data across different time intervals.
 The main difference from previous projects is the addition of an accumulated fact table to track dates.
 Analysis Phase
