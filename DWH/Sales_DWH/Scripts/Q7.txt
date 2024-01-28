@@ -1,0 +1,67 @@
+Fact_Sales :
+Sales_ID_SK      SK
+SalesmanID_SK    FK
+CustomerID_SK	 FK
+Product_ID_SK  	 FK
+Time_ID		 FK
+Quantity	Measure
+TotalPrice      Measure
+start_date       
+end_date         
+is_current       
+OrderID           BK
+
+
+Dim_Customer :
+CustomerID_SK    SK
+FirstName
+LastName
+Email
+PhoneNumber
+GenderName
+start_date
+end_date
+is_current
+CustomerID        BK
+
+
+
+Dim_Product :
+ProductID_SK	  SK
+ProductName
+Price
+SubCategoryName
+CategoryName
+start_date
+end_date
+is_current
+ProductID         BK
+
+
+Dim_Salesman :
+SalesmanID_SK     SK
+FirstName
+LastName
+Email
+PhoneNumber
+StreetAddress
+City
+State
+ZipCode
+start_date
+end_date
+is_current
+SalesmanID       BK
+
+
+Dim_Time :
+Time_ID          SK
+Year
+Month
+Day
+start_date
+end_date
+is_current
+        
+
+
